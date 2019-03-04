@@ -16,7 +16,6 @@ const (
 
 /* GoEnvParser represents an object capable of parsing environment variables into a struct, given specific tags. */
 type GoEnvParser interface {
-	/* Parse accepts a struct pointer and populates private properties according to "env" and "default" tag keys. */
 	Parse(object interface{}) error
 }
 
@@ -27,6 +26,7 @@ func NewGoEnvParser() GoEnvParser {
 	return &goEnvParser{}
 }
 
+/* Parse accepts a struct pointer and populates private properties according to "env" and "default" tag keys. */
 func (*goEnvParser) Parse(object interface{}) error {
 	if reflect.TypeOf(object).Kind() != reflect.Ptr {
 		return errors.New("objects passed to env.Parse() must be of kind pointer")
