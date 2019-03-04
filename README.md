@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.com/J7mbo/GoEnvConfig.svg?branch=master)](https://travis-ci.com/J7mbo/GoEnvConfig)
 [![codecov](https://img.shields.io/codecov/c/github/j7mbo/GoEnvConfig.svg?branch=master)](https://codecov.io/gh/J7mbo/GoEnvConfig)
 [![GoDoc](https://godoc.org/github.com/J7mbo/GoEnvConfig?status.svg)](https://godoc.org/github.com/J7mbo/GoEnvConfig)
+[![Version](https://img.shields.io/github/tag/j7mbo/GoEnvConfig.svg?label=version)](github.com/j7mbo/GoEnvConfig)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
 Automatically load environmental variables into structs with private properties.
